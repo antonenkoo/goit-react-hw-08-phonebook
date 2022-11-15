@@ -13,19 +13,15 @@ const ContactsPage = lazy(() => import('../pages/Contacts'));
 export const App = () => {
   return (
     <Routes>
-      <Route path="/" element={<Layout />}>
+      <Route path="/goit-react-hw-08-phonebook" element={<Layout />}>
         <Route index element={<HomePage />} />
         <Route
           path="/register"
-          element={
-            <RestrictedRoute component={RegisterPage} redirectTo="/contacts" />
-          }
+          element={<RestrictedRoute component={RegisterPage} redirectTo="/" />}
         />
         <Route
           path="/login"
-          element={
-            <RestrictedRoute component={LoginPage} redirectTo="/" />
-          }
+          element={<RestrictedRoute component={LoginPage} redirectTo="/" />}
         />
         <Route
           path="/contacts"
