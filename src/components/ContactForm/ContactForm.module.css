@@ -1,0 +1,41 @@
+/* .h1Styled {
+  display: grid;
+  gap: 16px;
+  max-width: fit-content;
+  margin: 0 auto;
+  padding: 16px;
+} */
+
+.divStyled {
+  border: 1px solid black;
+  padding: 15px;
+  width: 300px;
+  height: fit-content;
+}
+
+.inputStyled {
+  margin: 5px 0px;
+}
+
+.formStyled {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.labelStyled {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttonStyled {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.errorMessage {
+  color: #ffffff;
+  border-radius: 4px;
+  background-color: #ff0000;
+  padding: 4px;
+}

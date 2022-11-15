@@ -1,0 +1,18 @@
+.form {
+  width: 320px;
+  padding: 20px 0px 0px 0px;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.field {
+  margin: 7px;
+}
+
+.btnStyle {
+  margin: 10px 7px;
+}
